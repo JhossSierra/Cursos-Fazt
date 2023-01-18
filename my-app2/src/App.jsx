@@ -29,9 +29,10 @@ export function App() {
     function deleteTask(taskId) {
         setTasks(tasks.filter(task=>task.id !== taskId))
     }
+   
     return(
         <>
-        <h1>Hello</h1>
+        <h1>Hello k aa ase </h1>
         <h1>contador:{counter}</h1>   
             
         {/* La funcion onClic siempre necesita una funcion interna */}

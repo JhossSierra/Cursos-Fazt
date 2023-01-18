@@ -2,7 +2,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { App } from "./App";
-import { Input } from "./Input";
+import {TaskContextProvider} from './context/TaskContext';
+
 //buscar el root
 const rootElement = document.getElementById("root");
 
@@ -15,10 +16,7 @@ const root = ReactDOM.createRoot(rootElement);
 
 //render (solo acepta un solo elemento padre)
 root.render(<>
-
+<TaskContextProvider>
 <App/>
-
-
-<hr/>
-<Input/>
+</TaskContextProvider>
 </>);

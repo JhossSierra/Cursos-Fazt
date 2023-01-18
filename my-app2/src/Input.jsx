@@ -11,7 +11,7 @@ export function Input(){
 )
    return(
     <div>
-        <h1>input que trae el texto de regreso</h1>
+        <h1>input que trae el texto de regreso </h1>
         
         {/* ponemos el e=event y llamamos lo que esta guardado con e.target.value y lo guardamos con el setMensaje */}
         <input type="text" onChange={(e)=>{setMensaje(e.target.value)}}/>

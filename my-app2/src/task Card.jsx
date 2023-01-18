@@ -6,9 +6,12 @@ export function TaskCard(props){
     
     <div key={props.task.id}>
         
-        <h2>{props.task.name}</h2>
+    
+       <h2>{props.task.name}</h2>
         <p>{props.task.desc}</p>
-        <button onClick={()=>{props.deleteTask(props.task.id)}}>DELETE</button>
+        <button onClick={()=>{props.deleteTask(props.task.id)}}>
+        DELETE</button>
+    
     
     </div>
     
